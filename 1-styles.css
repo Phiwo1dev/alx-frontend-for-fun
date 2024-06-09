@@ -1,18 +1,9 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-h2 {
-    margin: 10px 5px;
-    position: relative;
-}
-
 a {
     text-decoration: none;
     color: #8a153a;
 }
+
+
 
 a::before {
     content: "";
@@ -26,5 +17,5 @@ a::before {
 }
 
 a:hover::before {
-    width: 9.5ch;
+    width: 9ch;
 }
